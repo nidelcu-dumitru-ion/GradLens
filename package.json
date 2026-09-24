@@ -5,6 +5,9 @@
   "workspaces": [
     "apps/web",
     "apps/api",
-    "packages/grade-math"
+    "packages/grade-math",
+    "scripts": {
+    "typecheck": "npm run typecheck --workspaces"
+  }
   ]
 }
